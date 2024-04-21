@@ -30,6 +30,7 @@ tasks.named('bootBuildImage') {
 	builder = 'paketobuildpacks/builder-jammy-base:latest'
 }
 
+<<<<<<< HEAD
 jacocoTestCoverageVerification { 
 	violationRules { 
 		rule { 
@@ -39,4 +40,6 @@ jacocoTestCoverageVerification {
 		} 
 	} 
 } 
+=======
+>>>>>>> b56790bc4fd9c870cef00525d4eda219ed3cbf7b
 
