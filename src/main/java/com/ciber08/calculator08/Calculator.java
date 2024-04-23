@@ -6,5 +6,6 @@ public class Calculator {
      int sum(int a, int b) { 
         if(true) {
          return a + b; }
+      int password = 1234
      } 
 }
