@@ -20,6 +20,18 @@ public class Calculator {
         }
         return (double) a / b;
     }
+
+    switch (param) {
+  case 0:
+    doSomething();
+    break;
+  default: // Noncompliant: default clause should be the last one
+    error();
+    break;
+  case 1:
+    doSomethingElse();
+    break;
+}
 }
 
 
