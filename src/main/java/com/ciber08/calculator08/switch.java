@@ -1,3 +1,5 @@
+package com.example;
+
 import java.util.Scanner;
 import java.util.logging.*;
 
@@ -33,4 +35,5 @@ public class EjemploSwitch {
         scanner.close();
     }
 }
+
 
